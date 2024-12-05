@@ -1,0 +1,245 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header-container
+{
+    padding: 30px;
+    max-width: 1180px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.header-images
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header-img
+{
+    width: 300px;
+}
+
+.menu-list
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.heading-list
+{
+    text-decoration: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333;
+}
+
+.heading-list:hover{
+    color: #808000;
+    transition: color 0.5s ease-in-out;
+    /* box-shadow: 0 2.5px 3px #AFEEEE; */
+    filter: drop-shadow(2px 2px 7px #00FFFF);
+    transition: filter 0.5s ease-in-out;
+    
+}
+
+.heading-list:active{
+    color: orange;
+}
+
+.heading-1
+{
+    align-self: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #333;
+}
+
+.list-history, .belt-list, .instructor-list, .phylosophy-list, .principles-list, .students-list
+{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333;
+    text-align: justify;
+}
+
+.main-text
+{
+    text-indent: 25px;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #333;
+    text-align: justify;
+}
+
+.container
+{
+    max-width: 1180px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 0;
+}
+
+footer{
+    background-color: #333;
+    height: 110px;
+}
+
+.footer-container
+{
+    max-width: 1180px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-logo
+{
+    width: 75px;
+}
+.footer-text
+{
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.main-pictures
+{
+    width: 520px;
+}
+
+.main-images
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-logo:hover
+{
+    size: 80%;
+    filter: drop-shadow(2px 2px 20px #00FFFF);
+}
+
+.heading-2
+{
+    align-self: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 650;
+    font-size: 50px;
+    line-height: 120%;
+    color: #333;
+}
+
+.list-history
+{
+    list-style-type: none;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.belt-list li
+{
+    margin-left: 35px;
+}
+
+.instructor-list
+{
+    margin-left: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.history-image
+{
+    align-self: center;
+}
+
+.phylosophy-list, .principles-list, .students-list
+{
+    margin-left: 35px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.heading-3
+{
+    align-self: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 650;
+    font-size: 40px;
+    line-height: 120%;
+    color: #333;
+}
+
+.gtf-image
+{
+    width: 500px;
+}
+
+.gtf-images
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.physical-dev-img
+{
+    align-self: center;
+    width: 1180px;
+}
+
+.relationships-images
+{
+    align-self: center;
+    width: 1180px;
+}
+
+br
+{
+    text-indent: 25px;
+}
+
+.text-container
+{
+    display: flex;
+    flex-direction: column;
+}
