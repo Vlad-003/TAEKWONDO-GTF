@@ -243,3 +243,63 @@ br
     display: flex;
     flex-direction: column;
 }
+.belt-img
+{
+    width: 400px;
+}
+
+@media (max-width: 1150px) {
+    .menu-list
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-1
+    {
+        font-size: 50px;
+        margin: 0 auto;
+    }
+    .header-images
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-2
+    {
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    .container
+    {
+        justify-content: center;
+        align-items: center;
+        max-width: none;
+    }
+    .main-text
+    {
+        margin: 0 5px;
+        text-indent: 5px;
+    }
+    .main-images
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-pictures, .belt-img, .physical-dev-img, .relationships-images
+    {
+        width: 310px;
+        align-self: center;
+    }
+    .list-history, .belt-list, .instructor-list, .phylosophy-list, .principles-list, .students-list
+    {
+        margin-left: 5px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .belt-list li
+    {
+        margin-left: 5px;
+    }
+}
